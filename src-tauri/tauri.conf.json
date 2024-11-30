@@ -4,15 +4,15 @@
   "version": "0.1.0",
   "identifier": "org.naosi.dutools",
   "build": {
-    "beforeDevCommand": "pnpm dev",
+    "beforeDevCommand": "pnpm run vite:dev",
     "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "pnpm build",
+    "beforeBuildCommand": "pnpm run vite:build",
     "frontendDist": "../dist"
   },
   "app": {
     "windows": [
       {
-        "title": "dutools",
+        "title": "DUTools",
         "width": 800,
         "height": 600
       }
